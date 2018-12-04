@@ -1,0 +1,12 @@
+Sistema de controle de versão
+	O controle de versão é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. Neste sistema ficam gravados todas as mudanças realizadas ao longo do desenvolvimento, permitindo resgatar versões específicas se necessário. Como geralmente os projetos são criados através de um time, o controle de versão permite este trabalho em equipe, sem que um interfira ou conflite com o código do outro. O GIT é um sistema de controle de versão, e assim como outros, como CVS, SVN, que são mais antigos, guardam o histórico completo dos arquivos desenvolvidos e alterados, que permitem acompanhar revisões sem acesso a uma rede ou um servidor central.
+	O Github é um servidor de web hosting compartilhado para projetos que utilizam GIT. 
+
+Sistema de controle de versão local
+	O método preferido de controle de versão por muitas pessoas é copiar arquivos em outro diretório (talvez um diretório com data e hora, se forem espertos). Esta abordagem é muito comum por ser tão simples, mas é também muito suscetível a erros. É fácil esquecer em qual diretório você está e gravar acidentalmente no arquivo errado ou sobrescrever arquivos sem querer 
+Sistema de controle de versão centralizados
+	Outro grande problema que as pessoas encontram estava na necessidade de trabalhar em conjunto com outros desenvolvedores, que usam outros sistemas. Para lidar com isso, foram desenvolvidos Sistemas de Controle de Versão Centralizados (Centralized Version Control System ou CVCS). Esses sistemas, como por exemplo o CVS, Subversion e Perforce, possuem um único servidor central que contém todos os arquivos versionados e vários clientes que podem resgatar (check out) os arquivos do servidor. Por muitos anos, esse foi o modelo padrão para controle de versão. 
+ Sistema de controle de Versão Distribuído
+	As vantagens estão relacionadas à distribuição do processamento, redundância/replicação de repositórios e às novas possibilidades de colaboração entre desenvolvedores (novos fluxos de trabalho).
+	Para o desenvolvedor tem maior rapidez as operações são processadas localmente. Não é necessário passar pela rede e contatar o servidor central para fazer um commit, por exemplo. E Autonomia a conexão com a rede só é necessária para trocar revisões com outros repositórios. Fora isso, trabalha-se desconectado e em qualquer lugar, como num cliente por exemplo.
+
